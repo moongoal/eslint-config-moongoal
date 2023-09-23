@@ -1,0 +1,29 @@
+{
+  "name": "eslint-config-moongoal",
+  "version": "1.0.0",
+  "description": "ESLint configuration",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moongoal/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "configuration"
+  ],
+  "author": "Alfredo Mungo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moongoal/eslint-config/issues"
+  },
+  "homepage": "https://github.com/moongoal/eslint-config#readme",
+  "devDependencies": {
+    "@types/eslint": "^8.44.2"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": ">=6",
+    "@typescript-eslint/parser": ">=6",
+    "eslint": ">=8"
+  }
+}
