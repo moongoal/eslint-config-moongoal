@@ -8,7 +8,19 @@ const config = {
         "comma-dangle": ["warn", "never"],
         "semi": ["error", "always", { omitLastInOneLineBlock: true }]
     },
-    ignorePatterns: ["./*/dist/*"]
+    ignorePatterns: ["./*/dist/*"],
+    overrides: [
+        { // Configuration files
+            files: [
+                ".eslintrc.js",
+                "webpack.config.js",
+            ],
+            env: {
+                node: true
+            },
+            parser: "eslint/parser"
+        }
+    ]
 };
 
 module.exports = config;
