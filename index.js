@@ -7,7 +7,8 @@ const config = {
         "arrow-parens": ["warn", "as-needed"],
         "comma-dangle": ["warn", "never"],
         "semi": ["error", "always", { omitLastInOneLineBlock: true }]
-    }
+    },
+    ignorePatterns: ["./*/dist/*"]
 };
 
 module.exports = config;

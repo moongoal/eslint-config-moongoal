@@ -10,9 +10,20 @@ const config = {
         node: true,
         es2022: true
     },
-    extends: ["moongoal"],
-    ignorePatterns: ["./*/dist/*"]
+    extends: ["moongoal"]
 };
 
 module.exports = config;
+```
+
+Recommended versioning
+
+```json
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "devDependencies": {
+    "eslint-config-moongoal": "*"
+  }
+}
 ```
