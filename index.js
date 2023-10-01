@@ -6,7 +6,8 @@ const config = {
         quotes: ["error", "double"],
         "arrow-parens": ["warn", "as-needed"],
         "comma-dangle": ["warn", "never"],
-        "semi": ["error", "always", { omitLastInOneLineBlock: true }]
+        "semi": ["error", "always", { omitLastInOneLineBlock: true }],
+        "@typescript-eslint/no-unused-vars": "warn"
     },
     ignorePatterns: ["./*/dist/*"],
     overrides: [
