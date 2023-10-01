@@ -15,6 +15,7 @@ const config = {
             files: [
                 ".eslintrc.js",
                 "webpack.config.js",
+                "jest.config.js"
             ],
             env: {
                 node: true
