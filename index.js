@@ -6,8 +6,14 @@ const config = {
         quotes: ["error", "double"],
         "arrow-parens": ["warn", "as-needed"],
         "comma-dangle": ["warn", "never"],
+        "comma-spacing": ["warn", { "before": false, "after": true }],
         "semi": ["error", "always", { omitLastInOneLineBlock: true }],
-        "@typescript-eslint/no-unused-vars": "warn"
+        "semi-spacing": "error",
+        "@typescript-eslint/no-unused-vars": "warn",
+        "function-call-argument-newline": ["warn", "consistent"],
+        "object-curly-spacing": ["warn", "always"],
+        "block-spacing": ["warn", "always"],
+        "indent": ["warn", 4]
     },
     ignorePatterns: ["./*/dist/*"],
     overrides: [
